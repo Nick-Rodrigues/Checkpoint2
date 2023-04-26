@@ -1,0 +1,26 @@
+.rodape{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rodape nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.rodape nav img{
+    width: 140px;
+    display: block;
+}
+
+.rodape nav a{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 0 130px;
+
+}
