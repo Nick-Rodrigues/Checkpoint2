@@ -1,22 +1,44 @@
+:root{
+    --cor-primaria:rgb(239, 184, 16);
+    --cor-secundaria: rgb(40 40 40);
+    --cor-terciaria:  #e9d9a4;
+}
+
+
+
 .cabecalho{
     display: flex;
-    background-color: rgb(239, 184, 16);
-    justify-content: space-between;
+    background-color: var(--cor-primaria);
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap; 
 }
 
 .cabecalho nav{
+    border: 5px double gray;
+    gap: 5px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color:var(--cor-terciaria);
 }
 
 .cabecalho nav a{
-    color: black;
+    color: var(--cor-secundaria);
 }
+
+.cabecalho nav a:nth-child(even) {
+    padding: 0 30px;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+
+  }
+  .cabecalho nav a:nth-child(odd) {
+    padding: 0 30px 0 30px;
+  }
 
 .cabecalho figure img{
     margin: 0 80px 0 0;
     width: 200px;
     height: 200px;
+    margin: 20px;
 }
