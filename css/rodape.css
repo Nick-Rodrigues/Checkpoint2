@@ -1,0 +1,29 @@
+.rodape{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(239, 184, 16);
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.rodape nav{
+    display: flex;
+    gap: 350px;
+    justify-content: center;
+
+}
+
+.rodape nav img{
+    width: 120px;
+    display: block;
+}
+
+.rodape nav a{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+
+}
