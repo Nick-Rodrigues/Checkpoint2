@@ -1,0 +1,26 @@
+h1{
+    color: rgb(149, 99, 6);
+}
+
+.conteudo {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.faixa1{
+    background-color: #efb810;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    border: 10px double #f7eb9b;
+
+}
+
+.faixa1 img{
+    width: 600px;
+    height: 400px;
+}
