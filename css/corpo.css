@@ -1,5 +1,8 @@
 h1{
     color: rgb(149, 99, 6);
+    border: 3px double yellow;
+    border-radius: 10px;
+    background-color: #f7eb9b;
 }
 
 .conteudo {
@@ -23,4 +26,9 @@ h1{
 .faixa1 img{
     width: 600px;
     height: 400px;
+}
+
+figcaption{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
 }

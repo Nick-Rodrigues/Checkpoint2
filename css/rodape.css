@@ -27,3 +27,21 @@
     padding: 0 10px;
 
 }
+
+@media (max-width: 1100px){
+    .rodape nav {
+        gap: 150px;
+    }
+
+}
+
+@media (max-width: 630px){
+    .rodape nav {
+        gap: 50px;
+    }
+    .rodape nav img{
+        width: 80px;
+        display: block;
+    }
+
+}
