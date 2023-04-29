@@ -20,7 +20,12 @@ h1{
 
 }
 
-.faixa1 img{
-    width: 600px;
+.faixa1 img {
+    width: 80%;
     height: 400px;
+}
+
+.faixa1 figure{    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
